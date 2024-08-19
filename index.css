@@ -1,0 +1,33 @@
+/*
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+} */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
+  /* min-height: 100vh; */
+  /* I have written on 18th august evening */
+  width: 1920px;
+  height: 6138px;
+  /* top: -5289px;
+  left: -875px; */
+  gap: 0px;
+  opacity: 0px;
+
+}
+
