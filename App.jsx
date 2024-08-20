@@ -105,7 +105,7 @@ id={id}
 className="frame" 
 style={{ 
   color: color || 'black',
-  backgroundImage: id === 'frame2' ? `url(${FrImage})` : 'none',
+  backgroundImage: 'none',
   backgroundSize: 'cover',
   backgroundPosition: 'center',
   width: id === 'frame1' ? '1918px' : id === 'frame2' ? '1920px' : id === 'frame3' ? '1236px':'100vh',
@@ -290,6 +290,7 @@ style={{
 
     {id === 'frame2' && (
       <div className="frame2-parent">
+       <img src={FrImage} alt="FrImage" className="FrImage" />
           <div className="Rectangle12"/>
           <div className='Rectangle11'/>
 
